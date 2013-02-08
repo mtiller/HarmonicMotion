@@ -11,3 +11,5 @@ about using Modelica to do the same.
 
 The experiment is so fascinating that I had to try this out.  As always, I'm releasing the models
 for public consumption and I'll eventually write up a [blog](http://blog.xogeny.com/) post about it.
+
+To run the model, simply simulate the `HarmonicMotion.System` model.
