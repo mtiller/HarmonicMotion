@@ -14,6 +14,6 @@ model System "A system of pendula"
     annotation (Placement(transformation(extent={{-80,-60},{-60,-40}})));
   annotation (experiment(
       StopTime=54,
-      NumberOfIntervals=6000,
-      Tolerance=1e-008),                __Dymola_experimentSetupOutput);
+      Interval=9e-3,
+      Tolerance=1e-008));
 end System;
