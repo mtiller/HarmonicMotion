@@ -5,7 +5,7 @@ Demonstrating an interesting experiment in harmonic motion.
 
 I was first made aware of this experiment in
 [a blog post](http://syntacticsalt.com/2011/08/27/harmonic-motion-simulation/)
-by @mjsottile ([Matt Sotille](http://syntacticsalt.com/about/)).  He used Haskell to build
+by @mjsottile ([Matt Sottile](http://syntacticsalt.com/about/)).  He used Haskell to build
 [his model](https://github.com/mjsottile/publicstuff), which triggered a
 conversation with @thorade ([Matthis Thorade](https://twitter.com/MatthisThorade))
 about using Modelica to do the same.
