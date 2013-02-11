@@ -5,7 +5,7 @@ model System "A system of pendula"
   parameter Integer n=10 "Number of pendula";
   parameter Modelica.SIunits.Position x[n] = linspace(0,n-1,n);
   parameter Modelica.SIunits.Time T = 54;
-  parameter Modelica.SIunits.Time X = 60;
+  parameter Modelica.SIunits.Time X = 30;
   parameter Modelica.SIunits.Length lengths[n] = { g_n*(T/(2*pi*(X+(n-i))))^2 for i in 1:n};
   parameter Modelica.SIunits.Angle phi0 = 0.5;
   Pendulum pendulum[n](x=x, each m=1, each phi=phi0, L=lengths)
@@ -14,6 +14,6 @@ model System "A system of pendula"
     annotation (Placement(transformation(extent={{-80,-60},{-60,-40}})));
   annotation (experiment(
       StopTime=54,
-      NumberOfIntervals=6000,
-      Tolerance=1e-008),                __Dymola_experimentSetupOutput);
+      Interval=9e-3,
+      Tolerance=1e-008));
 end System;
