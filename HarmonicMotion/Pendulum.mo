@@ -46,5 +46,4 @@ equation
       color={95,95,95},
       thickness=0.5,
       smooth=Smooth.None));
-  annotation (Diagram(graphics));
 end Pendulum;
