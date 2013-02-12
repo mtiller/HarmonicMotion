@@ -2,8 +2,8 @@ within HarmonicMotion;
 model System "A system of pendula"
   import Modelica.Constants.g_n;
   import Modelica.Constants.pi;
-  parameter Integer n=10 "Number of pendula";
-  parameter Modelica.SIunits.Position x[n] = linspace(0,n-1,n);
+  parameter Integer n=15 "Number of pendula";
+  parameter Modelica.SIunits.Position x[n] = linspace(0,(n-1)*0.05,n);
   parameter Modelica.SIunits.Time T = 54;
   parameter Modelica.SIunits.Time X = 60;
   parameter Modelica.SIunits.Length lengths[n] = { g_n*(T/(2*pi*(X+(n-i))))^2 for i in 1:n};
