@@ -8,7 +8,8 @@ model System "A system of pendula"
   parameter Modelica.SIunits.Time X = 30;
   parameter Modelica.SIunits.Length lengths[n] = { g_n*(T/(2*pi*(X+(n-i))))^2 for i in 1:n};
   parameter Modelica.SIunits.Angle phi0 = 0.5;
-  Pendulum pendulum[n](x=x, each m=1, each phi=phi0, L=lengths)
+  Pendulum pendulum[n](x=x, each m=1, each phi=phi0, L=lengths,
+    revolute(each w(fixed=true, start=0)))
     annotation (Placement(transformation(extent={{-10,-10},{10,10}})));
   inner Modelica.Mechanics.MultiBody.World world
     annotation (Placement(transformation(extent={{-80,-60},{-60,-40}})));
