@@ -1,4 +1,4 @@
 within ;
 package HarmonicMotion "Reproducing a fascinating experiment in harmonic motion"
-annotation (uses(Modelica(version="3.2")));
+annotation (uses(Modelica(version="3.2.1")));
 end HarmonicMotion;
