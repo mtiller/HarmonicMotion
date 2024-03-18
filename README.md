@@ -11,6 +11,6 @@ conversation with @thorade ([Matthis Thorade](https://twitter.com/MatthisThorade
 about using Modelica to do the same.
 
 The experiment is so fascinating that I had to try this out.  As always, I'm releasing the models
-for public consumption and I've written [a blog post about it](http://blog.xogeny.com/blog/harmonic-motion/).
+for public consumption and I've written [a blog post about it](https://whiteboard.modelica.university/blog/harmonic-motion/).
 
 To run the model, simply simulate the `HarmonicMotion.System` model.
